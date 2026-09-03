@@ -99,13 +99,14 @@ The A1 experiments (cross‑sectional return ranks / Z‑scores) showed that rel
 ---
 
 ## Project Structure
-├── baseline_v3_2.py # Main stable script (V3 dual‑model)
-├── baseline_v3_2_a1.py # A1 cross‑sectional feature extension
-├── baseline_v3_2_a1_1.py # Relative‑tail target extension
-├── validation_v5_.py # Strict time‑fold validation framework
-├── diagnostic_.py # Diagnostic tools for model analysis
+```text
+├── kaggle_baseline_v3_2.py          # Main stable script (V3 dual‑model)
+├── kaggle_baseline_v3_2_a1.py       # A1 cross‑sectional feature extension
+├── kaggle_baseline_v3_2_a1_1.py     # Relative‑tail target extension
+├── kaggle_validation_v5_*.py        # Strict time‑fold validation framework
+├── kaggle_diagnostic_*.py           # Diagnostic tools for model analysis
 └── README.md
-
+```
 
 ---
 
