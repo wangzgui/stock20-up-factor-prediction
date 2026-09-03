@@ -146,7 +146,7 @@ The A1 experiments (cross‑sectional return ranks / Z‑scores) showed that rel
 
 ## Acknowledgements
 
-This work was done as part of a Kaggle‑style competition. Special thanks to the organizers and the open‑source community for providing valuable reference implementations.
+This work was done as part of  **科大讯飞AI开发者大赛（iFLYTEK AI Developer Competition）** – Quantitative Investment Track.   competition. Special thanks to the organizers and the open‑source community for providing valuable reference implementations.
 
 ---
 
