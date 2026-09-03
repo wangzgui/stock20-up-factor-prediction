@@ -101,13 +101,13 @@ The A1 experiments (cross‑sectional return ranks / Z‑scores) showed that rel
 ## Project Structure
 ```text
 
-├── kaggle_baseline_v3_2.py              # Main stable script (V3 dual‑model)
-├── kaggle_baseline_v3_2_a1.py           # A1 cross‑sectional feature extension
-├── kaggle_baseline_v3_2_a1_1.py         # A1.1 relative‑tail target extension
-├── kaggle_validation_v5_rank_product.py # V5 strict time‑fold validation (rank product)
-├── kaggle_validation_v5_a_robust_regression.py # V5-A robust regression experiment
-├── kaggle_diagnostic_a1_1.py            # A1.1 diagnostic tools
-├── kaggle_diagnostic_a1_1_fusion.py     # A1.1 three‑strategy fusion diagnostic
+├──baseline_v3_2.py              # Main stable script (V3 dual‑model)
+├── baseline_v3_2_a1.py           # A1 cross‑sectional feature extension
+├── baseline_v3_2_a1_1.py         # A1.1 relative‑tail target extension
+├── validation_v5_rank_product.py # V5 strict time‑fold validation (rank product)
+├── validation_v5_a_robust_regression.py # V5-A robust regression experiment
+├── diagnostic_a1_1.py            # A1.1 diagnostic tools
+├── diagnostic_a1_1_fusion.py     # A1.1 three‑strategy fusion diagnostic
 └── README.md
 ```
 
