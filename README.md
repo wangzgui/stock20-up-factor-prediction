@@ -113,9 +113,9 @@ The A1 experiments (cross‑sectional return ranks / Z‑scores) showed that rel
 ## How to Reproduce
 
 1. Place the competition data in the expected paths:
-   - Train: `/kaggle/input/datasets/zhuowamg/test-data/train.csv`
-   - Test: `/kaggle/input/datasets/zhuowamg/true-test-data/test.csv`
-2. Run `kaggle_baseline_v3_2.py` (or `v3_2_a1.py` for the best version).
+   - Train: `test-data/train.csv`
+   - Test: `true-test-data/test.csv`
+2. Run `baseline_v3_2.py` (or `v3_2_a1.py` for the best version).
 3. The submission file `submission_v3_2.csv` will be generated.
 
 **Dependencies**: Python 3.8+, numpy, pandas, scikit‑learn, lightgbm.
