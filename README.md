@@ -100,13 +100,20 @@ The A1 experiments (cross‑sectional return ranks / Z‑scores) showed that rel
 
 ## Project Structure
 ```text
-├── baseline_v3_2.py          # Main stable script (V3 dual‑model)
-├── baseline_v3_2_a1.py       # A1 cross‑sectional feature extension
-├── baseline_v3_2_a1_1.py     # Relative‑tail target extension
-├── validation_v5_*.py        # Strict time‑fold validation framework
-├── diagnostic_*.py           # Diagnostic tools for model analysis
+├── baseline_v3_2.py              # V3.2 主稳定版本
+├── baseline_v3_2_a1.py           # A1 横截面特征扩展
+├── baseline_v3_2_a1_1.py         # A1.1 相对尾部目标扩展
+├── validation_v5_rank_product.py # V5 排名乘积严格验证
+├── validation_v5_a_robust_regression.py # V5-A 稳健回归
+├── diagnostic_a1_1.py            # A1.1 诊断工具
+├── diagnostic_a1_1_fusion.py     # 三方案融合诊断
+├── experiment_blind_top5_replacement.py # 盲测Top5替换实验
+├── test_feature_alignment.py     # 特征对齐测试
+├── test_load_data.py             # 数据加载测试
+├── 实验记录_完整版.md            # 实验记录文档
 └── README.md
 ```
+
 
 ---
 
